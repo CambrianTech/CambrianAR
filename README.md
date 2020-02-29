@@ -15,5 +15,21 @@ Generic parent type for remodeling types. Paint, floor, furniture, etc
   - Lifecycle
   - Maintaining state
   - Setting tool modes for interaction
+  
+## CBRemodelingScene
+Container for all information about current image or video being edited Responsibilities:
+- Initialization of image/video to be edited
+- Storing and modifying assets (paints, floors, furniture, etc) 
+- Saving a fully-editable image that can be loaded later Storing and modifying lighting and color temperature
+
+## CBRemodelingPaint
+Paint-specific asset object
+- A mutable container for paint data, allowing hot-swapping of any paint information while maintaining existing masks, in still or video
+- Values:
+   - Color
+   - Transparency (For stains) Sheen (Gloss level)
+   - UserData - for storing any value within the asset, typically ID’s or history
+   
+For specific example code, follow this link:
 
 [See full documentation](sdk-documentation.pdf)
