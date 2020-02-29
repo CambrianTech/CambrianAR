@@ -9,4 +9,11 @@ Holds information about current image/video being edited Assets, lighting, masks
 - Asset
 Generic parent type for remodeling types. Paint, floor, furniture, etc
 
+## CBRemodelingView
+- Parent object of the Cambrian Home Augmentation SDK
+- Responsibilities
+  - Lifecycle
+  - Maintaining state
+  - Setting tool modes for interaction
+
 [See full documentation](sdk-documentation.pdf)
