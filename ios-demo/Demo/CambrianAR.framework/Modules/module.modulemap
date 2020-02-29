@@ -1,0 +1,6 @@
+framework module CambrianAR {
+  umbrella header "CambrianAR.h"
+
+  export *
+  module * { export * }
+}
