@@ -2,20 +2,20 @@
 
 ### Cambrian Home Augmentation SDK
 Implementation is made to be as simple as possible, handling computer vision and rendering tasks under the hood without interaction from the application. The entire core SDK is encapsulated within a single UIView that can be placed within a storyboard.
-Primary components
+
+# Primary components
 •View
 Holds everything, manages state and lifecycle
+
 •Scene
 Holds information about current image/video being edited Assets, lighting, masks, etc
 •Asset
-  •
-• •
-•
 Generic parent type for remodeling types. Paint, floor, furniture, etc
- CBRemodelingView
+ 
+ 
+ ### CBRemodelingView
 Parent object of the Cambrian Home Augmentation SDK Responsibilities:
- •
-Maintaining state
+ • Maintaining state
 Setting tool modes for interaction
 CBRemodelingScene
 Container for all information about current image or video being edited Responsibilities:
@@ -27,7 +27,7 @@ Lifecycle
  • •
 • • • •
 
-CBRemodelingPaint
+### CBRemodelingPaint
 Paint-specific asset object
 A mutable container for paint data, allowing hot-swapping of any paint information while maintaining existing masks, in still or video
 Values:
@@ -35,4 +35,4 @@ Color
 Transparency (For stains) Sheen (Gloss level)
 UserData - for storing any value within the asset, typically ID’s or history
 
-[See pdf](sdk-documentation.pdf)
+[See full documentation](sdk-documentation.pdf)
