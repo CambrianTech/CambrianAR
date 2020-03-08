@@ -18,16 +18,6 @@
 		E7ED32CB2408761F0024D002 /* CBAssets in Resources */ = {isa = PBXBuildFile; fileRef = E7ED32CA2408761F0024D002 /* CBAssets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E7CFE36A24086CAA002CAD81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E7CFE36424086CAA002CAD81 /* CambrianAR.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E779240E1D4FC6D200196A06;
-			remoteInfo = CambrianAR;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		E74F90ED2409FB6E002BFD00 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -52,7 +42,6 @@
 		E7CFE35924086C43002CAD81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7CFE35C24086C43002CAD81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7CFE35E24086C43002CAD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7CFE36424086CAA002CAD81 /* CambrianAR.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CambrianAR.xcodeproj; path = ../CambrianAR/CambrianAR.xcodeproj; sourceTree = "<group>"; };
 		E7ED32C524086F8E0024D002 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		E7ED32CA2408761F0024D002 /* CBAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CBAssets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +61,6 @@
 		E7CFE34424086C42002CAD81 = {
 			isa = PBXGroup;
 			children = (
-				E7CFE36424086CAA002CAD81 /* CambrianAR.xcodeproj */,
 				E7CFE34F24086C42002CAD81 /* Demo */,
 				E7CFE34E24086C42002CAD81 /* Products */,
 				E7CFE36C24086CC3002CAD81 /* Frameworks */,
@@ -101,14 +89,6 @@
 				E7CFE35E24086C43002CAD81 /* Info.plist */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		E7CFE36524086CAA002CAD81 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E7CFE36B24086CAA002CAD81 /* CambrianAR.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E7CFE36C24086CC3002CAD81 /* Frameworks */ = {
@@ -166,28 +146,12 @@
 			mainGroup = E7CFE34424086C42002CAD81;
 			productRefGroup = E7CFE34E24086C42002CAD81 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E7CFE36524086CAA002CAD81 /* Products */;
-					ProjectRef = E7CFE36424086CAA002CAD81 /* CambrianAR.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E7CFE34C24086C42002CAD81 /* Demo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E7CFE36B24086CAA002CAD81 /* CambrianAR.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CambrianAR.framework;
-			remoteRef = E7CFE36A24086CAA002CAD81 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E7CFE34B24086C42002CAD81 /* Resources */ = {

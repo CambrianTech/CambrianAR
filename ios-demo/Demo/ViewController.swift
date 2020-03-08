@@ -10,7 +10,7 @@ import UIKit
 import CambrianAR
 import AVKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, CBARRemodelingViewDelegate {
     
     @IBOutlet weak var arView: CBARRemodelingView!
     let demoPaint = CBARRemodelingPaint()
@@ -30,7 +30,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             colors.append(randomColor)
         }
         
-        //self.arView.delegate = self;
+        self.arView.delegate = self;
     }
 
     override func viewWillAppear(_ animated: Bool) {
