@@ -34,12 +34,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+        if AVCaptureDevice.authorizationStatus(for: AVMediaType.video) == .authorized {
             self.arView.startRunning()
         } else {
             AVCaptureDevice.requestAccess(for: AVMediaType.video) { response in
                 if response {
-                    self.arView.startRunning()
+                    DispatchQueue.main.async {
+                        self.arView.startRunning()
+                    }
                 }
             }
         }
