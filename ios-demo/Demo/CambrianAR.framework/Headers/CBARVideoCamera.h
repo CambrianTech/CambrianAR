@@ -11,7 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @protocol CBARVideoCameraDelegate
-- (void) sendFrame:(CMSampleBufferRef)sampleBuffer isYUV:(BOOL)isYUV;
+- (void) sendFrame:(CVPixelBufferRef)pixelBuffer;
 @end
 
 @interface CBARVideoCamera : NSObject

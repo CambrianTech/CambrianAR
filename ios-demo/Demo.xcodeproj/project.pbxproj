@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E76B75B6242520810038D818 /* CambrianAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76B75B5242520340038D818 /* CambrianAR.framework */; };
-		E76B75B7242520810038D818 /* CambrianAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E76B75B5242520340038D818 /* CambrianAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E76B75EB24256B4A0038D818 /* CambrianAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76B75EA24256B4A0038D818 /* CambrianAR.framework */; };
+		E76B75EC24256B4A0038D818 /* CambrianAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E76B75EA24256B4A0038D818 /* CambrianAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7CFE35124086C42002CAD81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFE35024086C42002CAD81 /* AppDelegate.swift */; };
 		E7CFE35324086C42002CAD81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFE35224086C42002CAD81 /* SceneDelegate.swift */; };
 		E7CFE35524086C42002CAD81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFE35424086C42002CAD81 /* ViewController.swift */; };
@@ -18,23 +18,6 @@
 		E7ED32CB2408761F0024D002 /* CBAssets in Resources */ = {isa = PBXBuildFile; fileRef = E7ED32CA2408761F0024D002 /* CBAssets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E76B75AE242520310038D818 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E76B75A8242520310038D818 /* CambrianAR.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E779240E1D4FC6D200196A06;
-			remoteInfo = CambrianAR;
-		};
-		E76B75B4242520340038D818 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E76B75B0242520340038D818 /* CambrianAR.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E779240E1D4FC6D200196A06;
-			remoteInfo = CambrianAR;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		E74F90ED2409FB6E002BFD00 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -42,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E76B75B7242520810038D818 /* CambrianAR.framework in Embed Frameworks */,
+				E76B75EC24256B4A0038D818 /* CambrianAR.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,8 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E76B75A8242520310038D818 /* CambrianAR.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CambrianAR.xcodeproj; path = "../../../../common-core-legacy/cambrian-ios/CambrianAR/CambrianAR.xcodeproj"; sourceTree = "<group>"; };
-		E76B75B0242520340038D818 /* CambrianAR.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CambrianAR.xcodeproj; path = "../../../common-core-legacy/cambrian-ios/CambrianAR/CambrianAR.xcodeproj"; sourceTree = "<group>"; };
+		E76B75EA24256B4A0038D818 /* CambrianAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CambrianAR.framework; path = Demo/CambrianAR.framework; sourceTree = "<group>"; };
 		E7CFE34D24086C42002CAD81 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CFE35024086C42002CAD81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CFE35224086C42002CAD81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,33 +51,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76B75B6242520810038D818 /* CambrianAR.framework in Frameworks */,
+				E76B75EB24256B4A0038D818 /* CambrianAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E76B75A9242520310038D818 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E76B75AF242520310038D818 /* CambrianAR.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E76B75B1242520340038D818 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E76B75B5242520340038D818 /* CambrianAR.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E7CFE34424086C42002CAD81 = {
 			isa = PBXGroup;
 			children = (
-				E76B75B0242520340038D818 /* CambrianAR.xcodeproj */,
 				E7CFE34F24086C42002CAD81 /* Demo */,
 				E7CFE34E24086C42002CAD81 /* Products */,
 				E7CFE36C24086CC3002CAD81 /* Frameworks */,
@@ -113,7 +78,6 @@
 		E7CFE34F24086C42002CAD81 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				E76B75A8242520310038D818 /* CambrianAR.xcodeproj */,
 				E7ED32CA2408761F0024D002 /* CBAssets */,
 				E7ED32C524086F8E0024D002 /* Bridging-Header.h */,
 				E7CFE35024086C42002CAD81 /* AppDelegate.swift */,
@@ -130,6 +94,7 @@
 		E7CFE36C24086CC3002CAD81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E76B75EA24256B4A0038D818 /* CambrianAR.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,39 +146,12 @@
 			mainGroup = E7CFE34424086C42002CAD81;
 			productRefGroup = E7CFE34E24086C42002CAD81 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E76B75B1242520340038D818 /* Products */;
-					ProjectRef = E76B75B0242520340038D818 /* CambrianAR.xcodeproj */;
-				},
-				{
-					ProductGroup = E76B75A9242520310038D818 /* Products */;
-					ProjectRef = E76B75A8242520310038D818 /* CambrianAR.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E7CFE34C24086C42002CAD81 /* Demo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E76B75AF242520310038D818 /* CambrianAR.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CambrianAR.framework;
-			remoteRef = E76B75AE242520310038D818 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E76B75B5242520340038D818 /* CambrianAR.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CambrianAR.framework;
-			remoteRef = E76B75B4242520340038D818 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E7CFE34B24086C42002CAD81 /* Resources */ = {
