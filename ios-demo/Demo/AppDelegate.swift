@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        //CBARLicensing.enable(withKey: "YOUR KEY HERE")
+        CBARLicensing.enable(withKey: "281aa1c75aea4e77ae4a829772508a26")
         
         return true
     }
